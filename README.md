@@ -1,6 +1,7 @@
 SC-OVAD: Scene-Conditioned Open-Vocabulary Decoupled Learning for Video Anomaly Detection
 
 📌 Overview
+
 ![Uploading main.jpg…]()
 
 Weakly supervised video anomaly detection aims to identify abnormal events in untrimmed videos using only video-level supervision. However, existing methods often rely on globally shared normality assumptions, fail to capture scene-dependent semantic variations, and show limited generalization to unseen anomaly categories in open-vocabulary settings.
@@ -35,6 +36,20 @@ Peng Wu et al., Not only Look, But Also Listen: Learning Multimodal Violence Det
 UBnormal
 
 Andra Acsintoae et al., UBnormal: New Benchmark for Supervised Open-Set Video Anomaly Detection, CVPR 2022.
+
+## 🌐 Dataset Links
+
+- 🔗 UCF-Crime  
+
+https://openaccess.thecvf.com/content_cvpr_2018/html/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.html  
+
+- 🔗 XD-Violence  
+
+https://link.springer.com/chapter/10.1007/978-3-030-58577-8_20
+
+- 🔗 Ub Normal  
+
+https://github.com/lilygeorgescu/ubnormal
 
 🚀 Running the Code
 
