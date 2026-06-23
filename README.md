@@ -8,15 +8,7 @@ To address these limitations, we propose SC-OVAD (Scene-Conditioned Open-Vocabul
 
 🧠 Abstract
 
-We propose SC-OVAD, a Scene-Conditioned Contrastive Open-Vocabulary Decoupling framework for weakly supervised video anomaly detection.
-
-Specifically:
-
-A Scene-Conditioned Normality Prototype (SCNP) module learns contamination-aware and scene-adaptive normal representations for robust anomaly modeling.
-A Scene-Conditioned Semantic Event Chain (SCSEC) module models anomaly detection as semantic event transition deviation, capturing inconsistencies between expected and observed event evolution in a scene-aware space.
-An Open-Vocabulary Contrastive Decoupling (OVCD) module disentangles scene appearance and semantic event dynamics while aligning video representations with language-defined concepts for unseen anomaly detection.
-
-Extensive experiments on UCF-Crime, XD-Violence, and UBnormal demonstrate that SC-OVAD achieves state-of-the-art performance and strong generalization to unseen anomaly categories.
+We propose SC-OVAD, a Scene-Conditioned Contrastive Open-Vocabulary Decoupling framework for weakly supervised video anomaly detection. Extensive experiments on UCF-Crime, XD-Violence, and UBnormal demonstrate that SC-OVAD achieves state-of-the-art performance and strong generalization to unseen anomaly categories.
 
 ⚙️ Implementation Details
 
@@ -27,6 +19,7 @@ CLIP feature extraction follows:
 👉 https://github.com/joos2010kj/CLIP-TSA
 📂 Datasets
 
+For the UBnormal dataset, we followed the official implementation and data processing pipeline from the PLOVAD repository (https://github.com/ctX-u/PLOVAD) for consistency and reproducibility.
 We evaluate our method on three benchmark datasets:
 
 UCF-Crime
@@ -56,7 +49,5 @@ Decoupled scene vs event representation learning
 
 Our method achieves state-of-the-art performance on all evaluated datasets and shows strong generalization to unseen anomaly categories in open-vocabulary settings.
 
-📌 Notes
-We use pre-extracted CLIP features for efficiency.
-All models use frozen CLIP ViT-B/16 backbone.
-Code is structured for reproducibility across datasets.
+
+
