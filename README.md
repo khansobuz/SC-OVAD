@@ -1,4 +1,5 @@
 SC-OVAD: Scene-Conditioned Open-Vocabulary Decoupled Learning for Video Anomaly Detection
+
 📌 Overview
 ![Uploading main.jpg…]()
 
@@ -17,17 +18,24 @@ We use pre-extracted CLIP features for all experiments.
 Backbone: Frozen CLIP (ViT-B/16)
 CLIP feature extraction follows:
 👉 https://github.com/joos2010kj/CLIP-TSA
+
 📂 Datasets
 
 For the UBnormal dataset, we followed the official implementation and data processing pipeline from the PLOVAD repository (https://github.com/ctX-u/PLOVAD) for consistency and reproducibility.
 We evaluate our method on three benchmark datasets:
 
 UCF-Crime
+
 Waqas Sultani, Chen Chen, and Mubarak Shah, Real-World Anomaly Detection in Surveillance Videos, CVPR 2018.
+
 XD-Violence
+
 Peng Wu et al., Not only Look, But Also Listen: Learning Multimodal Violence Detection Under Weak Supervision, ECCV 2020.
+
 UBnormal
+
 Andra Acsintoae et al., UBnormal: New Benchmark for Supervised Open-Set Video Anomaly Detection, CVPR 2022.
+
 🚀 Running the Code
 
 We provide separate training scripts for each dataset:
@@ -40,11 +48,13 @@ python main_UCF.py
 
 # XD-Violence dataset
 python main_xd.py
+
 🧪 Features
 Scene-conditioned anomaly modeling
 Open-vocabulary generalization
 CLIP-based semantic alignment
 Decoupled scene vs event representation learning
+
 📊 Results
 
 Our method achieves state-of-the-art performance on all evaluated datasets and shows strong generalization to unseen anomaly categories in open-vocabulary settings.
