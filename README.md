@@ -2,7 +2,8 @@ SC-OVAD: Scene-Conditioned Open-Vocabulary Decoupled Learning for Video Anomaly 
 
 📌 Overview
 
-![Uploading main.jpg…]()
+<img width="4975" height="2285" alt="main" src="https://github.com/user-attachments/assets/140d322a-e2fa-4c6d-92a1-044186946c2f" />
+
 
 Weakly supervised video anomaly detection aims to identify abnormal events in untrimmed videos using only video-level supervision. However, existing methods often rely on globally shared normality assumptions, fail to capture scene-dependent semantic variations, and show limited generalization to unseen anomaly categories in open-vocabulary settings.
 
